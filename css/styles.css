@@ -1,0 +1,162 @@
+body {
+  font-family: "Montserrat" !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900 !important;
+  font-family: "Montserrat" !important;
+}
+p {
+  color: #8f8f8f;
+}
+.coloured-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
+}
+
+/* heading */
+
+.main-title {
+  font-weight: 900;
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid {
+  padding: 7% 15% !important;
+}
+
+/* Nav Bar */
+.navbar {
+  padding: 0 0 3rem !important;
+}
+.nav-item {
+  padding: 0px 18px;
+}
+.nav-link {
+  font-weight: 100 !important;
+  font-family: "Montserrat" !important ;
+  font-size: 1.2rem !important;
+}
+.navbar-brand {
+  font-family: "Ubuntu" !important;
+  font-size: 2.5rem !important;
+}
+/* Title */
+#title .container-fluid {
+  padding: 3% 15% 7% !important;
+}
+
+/* button */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.iphone-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+.title-image-container {
+  position: relative;
+}
+
+/* Feature */
+#features {
+  position: relative;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.font-awsome-image {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.font-awsome-image:hover {
+  color: #ff4c68;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* Testimonial section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+}
+.testimonial-h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.ava-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+/* Cta */
+
+#cta {
+  text-align: center;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  line-height: 1.5;
+}
+.icon {
+  margin: 1% !important;
+}
+/* Mobile view */
+
+@media only screen and (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .iphone-image {
+    width: 40%;
+    position: static;
+    transform: rotate(0deg);
+  }
+}
